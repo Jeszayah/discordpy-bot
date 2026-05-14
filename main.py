@@ -12,8 +12,9 @@ bot = commands.Bot(
     command_prefix='!', 
     intents=intents, 
     status=discord.Status.idle, 
-    activity=discord.Game(name="with xen")
+    activity=discord.CustomActivity(name="with xen")
 )
+
 
 
 
