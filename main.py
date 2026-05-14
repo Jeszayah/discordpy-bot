@@ -1,10 +1,9 @@
 # This example requires the 'message_content' privileged intents
-
 import os
 import discord
 from discord.ext import commands
 
-
+# Bot Setup
 intents = discord.Intents.default()
 intents.message_content = True
 
@@ -14,6 +13,8 @@ bot = commands.Bot(
     status=discord.Status.idle, 
     activity=discord.CustomActivity(name="with xen")
 )
+
+
 
 
 
