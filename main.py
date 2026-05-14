@@ -21,6 +21,8 @@ bot = commands.Bot(command_prefix='!', intents=intents, status=discord.Status.id
 
 
 
+
+
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user}")
